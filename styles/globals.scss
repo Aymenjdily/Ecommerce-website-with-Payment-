@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--google-font) !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+@import './scss/components/navbar/navbar'; // component
+@import './scss/layouts/layouts'; // layouts
+@import './scss/container/intro/intro'; // intro section container
+@import './scss/components/collection/collection'; // component
+@import './scss/fonts/fonts'; // fonts
+@import './scss/colors/colors'; // colors
+@import './scss/components/product/product'; // component
+@import './scss/container/services/services'; // service section container + component
+@import './scss/components/customer/customer'; // component
+@import './scss/container/testimonials/testimonials'; // testimonials section container
+@import './scss/container/footer/footer'; // footer section container
+@import './scss/components/productDetails/productDetails'; // component
+@import './scss/components/cart/cart'; // component

@@ -1,0 +1,26 @@
+.intro{
+    background-color: var(--white-alt);
+
+    &-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            font-size: 7rem;
+            font-weight: 800;
+            text-transform: capitalize;
+            color: var(--black);
+        }
+        h2{
+            font-size: 5rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            color: var(--blue);
+        }
+    }
+
+    &-icon{
+        font-size: 7rem;
+        color: var(--black);
+    }
+}
